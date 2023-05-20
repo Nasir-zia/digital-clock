@@ -1,0 +1,11 @@
+#container{
+    border: solid 10px green;
+    width: 50vw;
+    text-align: center;
+    color: blue;
+    margin-top: 15%;
+    margin-left: 25%;
+    font-size: 70px;
+    background-color: rgb(255, 252, 89)
+
+}

@@ -1,11 +1,18 @@
 #container{
-    border: solid 10px green;
+   border: solid 10px;
+   border-color:white yellow gray green;
     width: 50vw;
     text-align: center;
-    color: blue;
+    -webkit-text-fill-color: rgb(145, 67, 218);
+    -webkit-text-stroke-color: chartreuse;
+    background: -webkit-linear-gradient(#ca1a1a 30%, #22db2b);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
     margin-top: 15%;
     margin-left: 25%;
     font-size: 70px;
-    background-color: rgb(255, 252, 89)
-
+}
+body{
+    background-color: blue;
+   background-image: linear-gradient(to right,blue,green);
 }
